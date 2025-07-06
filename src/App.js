@@ -6,7 +6,7 @@ import ContactUS from './Pages/ContactUS';
 import Product from './Pages/Product';
 import KnowMore from './Pages/KnowMore';
 import Founders from './Pages/Founders'
-import { BrowserRouter,  Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import React, {useEffect, useState} from 'react';
 import ScrollToTop from './Pages/ScrollToTop';
 
@@ -24,7 +24,7 @@ function App() {
 
   return (   
     <div className="App">
-      <BrowserRouter>
+      <Router>
         
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
           <div className="navbar-left">
@@ -32,10 +32,10 @@ function App() {
             <span className="brand-name">Virtuzen Infotech</span>
           </div>
           <ul className="navbar-menu">
-              <li><a href="Home" className="active">Home</a></li>
-              <li><a href="About" className="active">About us</a></li>
-              <li><a href="Product" className="active">Product & Services</a></li>
-              <li><a href="contactUs" className="active"> ContactUS</a></li>
+              <li><Link to="/Home" className="active">Home</Link></li>
+              <li><Link to="/About" className="active">About us</Link></li>
+              <li><Link to="/Product" className="active">Product & Services</Link></li>
+              <li><Link to="/contactUs" className="active"> ContactUS</Link></li>
           </ul>
         </nav>
         <ScrollToTop />
@@ -48,7 +48,7 @@ function App() {
           <Route path='/KnowMore' element = {<KnowMore />} />
           <Route path='/Founders' element = {<Founders />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
 
     </div>
   );
