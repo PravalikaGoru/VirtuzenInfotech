@@ -1,0 +1,165 @@
+/* ======================
+   General Section Styles
+====================== */
+
+
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home-wrapper {
+  padding: 10px 30px;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+
+.cluster-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2f2f2f; /* dark background */
+  border-radius: 24px;
+  padding: 70px 80px;
+  margin: 100px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  color: white;
+  gap: 30px;
+}
+
+/* ======================
+   Text Section
+====================== */
+.text-section {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.text-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: white;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* ======================
+   Image Section
+====================== */
+.image-section {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image-section img {
+  max-width: 280px;
+  height: auto;
+  border-radius: 12px;
+  background-color: white;
+  padding: 10px;
+}
+.know-more-cluster {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2f2f2f; /* dark background */
+  border-radius: 24px;
+  padding: 70px 80px;
+  margin: 100px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  color: white;
+  gap: 30px;
+    position: relative; /* Needed for absolute children */
+    padding-bottom: 80px; /* Add space for 'Know More' link */
+}
+
+.know-more-section {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.know-more-link {
+    font-size: 18px; /* Adjust font size */
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.know-more-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Founders prroforma  */
+.founder-cluster {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #2f2f2f;
+  border-radius: 24px;
+  padding: 70px 80px;
+  margin: 100px auto;
+  max-width: 1200px;
+  color: white;
+  gap: 60px; /* adds space between left and right sides */
+}
+
+.text-left {
+  flex: 0 0 40%;
+  text-align: left;
+}
+
+.text-right {
+  flex: 0 0 60%;
+  text-align: left;
+}
+
+.text-right p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.founder-more-section {
+  text-align: right;
+}
+
+.highlight {
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 10px;
+}
+
+
+/* ======================
+   Responsive Layout
+====================== */
+@media (max-width: 768px) {
+  .cluster-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .text-section {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .image-section {
+    flex-direction: column;
+  }
+
+  .image-section img {
+    max-width: 70%;
+  }
+}

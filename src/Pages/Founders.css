@@ -1,0 +1,41 @@
+.cluster-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f2f2f;
+  padding: 60px 80px;
+  border-radius: 24px;
+  max-width: 1200px;
+  margin: 100px auto;
+  gap: 40px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.text-content {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  min-width: 300px;
+}
+
+.image-content {
+  flex: 0 0 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.brand-name {
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #00c853;
+}

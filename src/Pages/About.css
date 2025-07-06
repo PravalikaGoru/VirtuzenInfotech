@@ -1,0 +1,88 @@
+/* ======================
+   General Section Styles
+====================== */
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home-wrapper {
+  padding: 10px 30px;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+
+.cluster-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2f2f2f; /* dark background */
+  border-radius: 20px;
+  padding: 60px 40px;
+  margin: 60px auto;
+  max-width: 800px;
+  flex-wrap: wrap;
+  color: white;
+  gap: 40px;
+}
+
+/* ======================
+   Text Section
+====================== */
+.text-section {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.text-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: white;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* ======================
+   Image Section
+====================== */
+.image-section {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-section img {
+  max-width: 280px;
+  height: auto;
+  border-radius: 12px;
+  background-color: white;
+  padding: 10px;
+}
+
+.highlight {
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Change the text color to a highlight color (e.g., yellow) */
+    padding: 2px 4px; /* Optional: Add some padding for better visibility */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+
+/* ======================
+   Responsive Layout
+====================== */
+@media (max-width: 768px) {
+  .cluster-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .text-section {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+}
