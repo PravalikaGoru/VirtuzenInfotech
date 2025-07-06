@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/VirtuzenInfotech/static/css/main.8fd334c0.css",
-    "main.js": "/VirtuzenInfotech/static/js/main.ae703e5a.js",
-    "static/js/453.670e15c7.chunk.js": "/VirtuzenInfotech/static/js/453.670e15c7.chunk.js",
-    "static/media/Aditya_Founder.jpeg": "/VirtuzenInfotech/static/media/Aditya_Founder.393020c1d56a43037a08.jpeg",
-    "static/media/vi_logo_2.jpeg": "/VirtuzenInfotech/static/media/vi_logo_2.53014400144ed9ab11c4.jpeg",
-    "index.html": "/VirtuzenInfotech/index.html",
-    "main.8fd334c0.css.map": "/VirtuzenInfotech/static/css/main.8fd334c0.css.map",
-    "main.ae703e5a.js.map": "/VirtuzenInfotech/static/js/main.ae703e5a.js.map",
-    "453.670e15c7.chunk.js.map": "/VirtuzenInfotech/static/js/453.670e15c7.chunk.js.map"
+    "main.css": "/static/css/main.8fd334c0.css",
+    "main.js": "/static/js/main.06639bdd.js",
+    "static/js/453.670e15c7.chunk.js": "/static/js/453.670e15c7.chunk.js",
+    "static/media/Aditya_Founder.jpeg": "/static/media/Aditya_Founder.393020c1d56a43037a08.jpeg",
+    "static/media/vi_logo_2.jpeg": "/static/media/vi_logo_2.53014400144ed9ab11c4.jpeg",
+    "index.html": "/index.html",
+    "main.8fd334c0.css.map": "/static/css/main.8fd334c0.css.map",
+    "main.06639bdd.js.map": "/static/js/main.06639bdd.js.map",
+    "453.670e15c7.chunk.js.map": "/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8fd334c0.css",
-    "static/js/main.ae703e5a.js"
+    "static/js/main.06639bdd.js"
   ]
 }
