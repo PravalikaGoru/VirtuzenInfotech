@@ -6,8 +6,9 @@ import ContactUS from './Pages/ContactUS';
 import Product from './Pages/Product';
 import KnowMore from './Pages/KnowMore';
 import Founders from './Pages/Founders'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter,  Route, Routes } from 'react-router-dom';
 import React, {useEffect, useState} from 'react';
+import ScrollToTop from './Pages/ScrollToTop';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -37,7 +38,7 @@ function App() {
               <li><a href="contactUs" className="active"> ContactUS</a></li>
           </ul>
         </nav>
-        
+        <ScrollToTop />
         <Routes className="navbar-menu">
           <Route path='/' className="active" element = {<Home />} />
           <Route path='/home' element = {<Home />} />

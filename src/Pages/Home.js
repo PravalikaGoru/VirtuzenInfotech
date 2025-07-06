@@ -14,6 +14,7 @@ export default function Home(){
     const handleKnowMoreClick = () => {
         // You can perform any operations here, then navigate
         navigate('/KnowMore'); // ✅ navigate to KnowMore page
+        
     };
 
     // Example: function to call on click
